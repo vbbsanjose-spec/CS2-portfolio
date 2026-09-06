@@ -24,3 +24,8 @@ Condition: 0  > score or score > 100
 The score must be validated first if it surpassed the boundaries, if not,
 it will be then classified based on how high their value is
 
+# Part 2
+
+## Flowchart of the program 
+![Score Checker Flowchart](./Score_Checker_Flowchart_20260906_201559_0000.png)
+
