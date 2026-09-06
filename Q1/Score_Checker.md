@@ -55,8 +55,7 @@ What condition will you use to determine whether the score is valid?
 
 
 
-**Multiple Decision Paths**
-
+## Multiple Decision Paths
 Explain how the program decides which classification should be displayed.
 >The score must be validated first if it surpassed the boundaries, if not, it will be then classified based on how high their value is
 
@@ -99,10 +98,44 @@ END
 
 ## Source Code 
 
-![ Score Checker Source Code](./Score_Checker.py)
+Click -> ![ Score Checker Source Code](./Score_Checker.py) 
 
 # Part 5 - Testing 
 | Test | Input | Purpose | Expected Output | Actual Output | Result |
+|---|---:|---|---|---|---|
+| 1 | -1 | Below minimum | | | |
+| 2 | 0 | Minimum boundary | | | |
+| 3 | 74 | Below Satisfactory boundary | | | |
+| 4 | 75 | Satisfactory boundary | | | |
+| 5 | 80 | Very Satisfactory boundary | | | |
+| 6 | 90 | Outstanding boundary | | | |
+| 7 | 100 | Maximum boundary | | | |
+| 8 | 101 | Above maximum | | | |
+
+## Testing Reflection 
+### 1. Why is it important to test the values 0 and 100?
+>It is important to test 0 and 100 because they are the lowest and highest valid scores. Testing them helps make sure my program correctly accepts the boundary values.
+
+
+### 2. Why did you also test -1 and 101?
+>I tested -1 and 101 because they are just outside the valid range. This checks if the program correctly rejects scores that are too low or too high.
+
+### 3. Which test helped you understand boundary conditions the most?
+>Testing 0, 100, -1, and 101 helped me understand boundary conditions the most because they show how my program handles values at and just beyond the limits.
+
+### 4. Did any of your tests initially fail? If yes, what did you change in your program?
+>No. No error occured initially in my program.
+
+# Reflection
+### 1. How did selection structures make the program more useful?
+>Selection structures made my program more useful because they allowed it to make decisions based on the score entered. For example,the program can determine whether the score is valid and identify the corresponding result or grade.
+
+### 2. How did proper comments and readable formatting improve your program?
+>Proper comments and readable formatting made my program easier to understand, check, and modify. They also helped explain what each part of the code does and made it easier to find errors.
+
+### 3. Why is it useful to plan the program using a flowchart and pseudocode before writing the code?
+>Planning with a flowchart and pseudocode helps organize the steps and logic of my program before writing the actual code. It makes the program easier to create and helps prevent mistakes.
+
 
 
 
