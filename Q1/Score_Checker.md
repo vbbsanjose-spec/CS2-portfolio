@@ -107,7 +107,7 @@ Click -> ![ Score Checker Source Code](./Score_Checker.py)
 | 2 | 0 | Minimum boundary | Your score Needs Improvement, and that is ok! Come back stronger, bro | Your score Needs Improvement, and that is ok! Come back stronger, bro | Pass |
 | 3 | 74 | Below Satisfactory boundary | Your score Needs Improvement, and that is ok! Come back stronger, bro | Your score Needs Improvement, and that is ok! Come back stronger, bro | Pass |
 | 4 | 75 | Satisfactory boundary | Your score is satisfactory, good job! | Your score is satisfactory, good job! | Pass |
-| 5 | 80 | Very Satisfactory boundary | Nice! Your score is very satisfactory, good job! | | Pass |
+| 5 | 80 | Very Satisfactory boundary | Nice! Your score is very satisfactory, good job! | Nice! Your score is very satisfactory, good job! | Pass |
 | 6 | 90 | Outstanding boundary | WOW! Your score is Outstanding!!! Good job! | WOW! Your score is Outstanding!!! | Pass |
 | 7 | 100 | Maximum boundary | WOW! Your score is Outstanding!!! Good job! | WOW! Your score is Outstanding!!! Good job! | Pass |
 | 8 | 101 | Above maximum | What!? You have an Invalid Score! The score that you must get only extends from 0 to 100! | What!? You have an Invalid Score! The score that you must get only extends from 0 to 100!  | Pass |
