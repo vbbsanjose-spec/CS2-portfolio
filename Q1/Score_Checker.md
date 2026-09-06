@@ -31,10 +31,10 @@ What information does the program need?
 
 
 ## Valid Range
-**The minimum value** 
+**Minimum valid score:** 
 >>0
 
-**The maximum value** 
+**Maximum valid score:** 
 ><100
 
 
