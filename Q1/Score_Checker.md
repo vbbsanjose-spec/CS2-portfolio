@@ -12,10 +12,16 @@ The maximum value = 100
 
 ## Possible Outputs
 *The outputs that the program can show are the following:*
+
+
 You have an Invalid Score
+
 Your score Needs Improvement
+
 Your score is Satisfactory
+
 Your score is Very satisfactory
+
 Your score is Outstanding
 
 
