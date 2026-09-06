@@ -50,7 +50,7 @@ it will be then classified based on how high their value is
 
 # Part 3
 
-**The** ***pseudocode*** **of the program**
+## Sample pseudocode 
 
 START 
 
@@ -67,6 +67,12 @@ PRINT “Very satisfactory”
 
 ELSE IF score >= 75 THEN
 PRINT “Satisfactory”
+
+# Part 4
+
+## Source Code
+
+
 
 ELSE 
 PRINT “Needs Improvement”
