@@ -6,6 +6,7 @@ The program, score checker, needs the student’s score as its input
 
 ## Boundaries
 The minimum value = 0
+
 The maximum value = 100
 
 
