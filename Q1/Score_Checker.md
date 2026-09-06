@@ -32,8 +32,7 @@ it will be then classified based on how high their value is
 
 # Part 2
 
-**The** ***flowchart*** **
-of the program**
+**The** ***flowchart*** **of the program**
 ![Score Checker Flowchart](./Score_Checker_Flowchart_20260906_202744_0000.png)
 
 
