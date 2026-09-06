@@ -32,10 +32,10 @@ What information does the program need?
 
 ## Valid Range
 **The minimum value** 
->0
+>>0
 
 **The maximum value** 
-<100
+><100
 
 
 ## Possible Outputs
