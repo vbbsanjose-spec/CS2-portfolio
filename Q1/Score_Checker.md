@@ -100,17 +100,17 @@ END
 
 Click -> ![ Score Checker Source Code](./Score_Checker.py) 
 
-# Part 5 - Testing 
+# Part 5 - Testing
 | Test | Input | Purpose | Expected Output | Actual Output | Result |
 |---|---:|---|---|---|---|
-| 1 | -1 | Below minimum | | | |
-| 2 | 0 | Minimum boundary | | | |
-| 3 | 74 | Below Satisfactory boundary | | | |
-| 4 | 75 | Satisfactory boundary | | | |
-| 5 | 80 | Very Satisfactory boundary | | | |
-| 6 | 90 | Outstanding boundary | | | |
-| 7 | 100 | Maximum boundary | | | |
-| 8 | 101 | Above maximum | | | |
+| 1 | -1 | Below minimum | What!? You have an Invalid Score! The score that you must get only extends from 0 to 100! | | |
+| 2 | 0 | Minimum boundary | Your score Needs Improvement, and that is ok! Come back stronger, bro | | |
+| 3 | 74 | Below Satisfactory boundary | Your score Needs Improvement, and that is ok! Come back stronger, bro | | |
+| 4 | 75 | Satisfactory boundary | Your score is satisfactory, good job! | | |
+| 5 | 80 | Very Satisfactory boundary | Nice! Your score is very satisfactory, good job! | | |
+| 6 | 90 | Outstanding boundary | WOW! Your score is Outstanding!!! Good job! | | |
+| 7 | 100 | Maximum boundary | WOW! Your score is Outstanding!!! Good job! | | |
+| 8 | 101 | Above maximum | What!? You have an Invalid Score! The score that you must get only extends from 0 to 100! | | |
 
 ## Testing Reflection 
 ### 1. Why is it important to test the values 0 and 100?
