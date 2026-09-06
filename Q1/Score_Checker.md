@@ -50,7 +50,8 @@ List all possible outputs of the program
 
 
 ## Boundary Condition 
-What condition will you use to determine whether the score is valid?>Boundary condition will be used when the student gives a score below 0 or above 100. Condition: 0  > score or score > 100
+What condition will you use to determine whether the score is valid?
+>Boundary condition will be used when the student gives a score below 0 or above 100. Condition: 0  > score or score > 100
 
 
 
