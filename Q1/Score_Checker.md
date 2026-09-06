@@ -56,6 +56,7 @@ What condition will you use to determine whether the score is valid?
 
 
 **Multiple Decision Paths**
+
 Explain how the program decides which classification should be displayed.
 >The score must be validated first if it surpassed the boundaries, if not, it will be then classified based on how high their value is
 
