@@ -7,7 +7,7 @@ links for submission down below :
 
 LINKS :
 
->[SanJose_VinceBryll_Distance.py](Q1/SanJose_VinceBryll_Distance.py)
+>[SanJose_VinceBryll_Distance.py](Q1/SanJose_Vince_Distance.py)
 
 >[hello.py](Q1/hello.py)
 
