@@ -224,23 +224,23 @@ display of the registration result
 ## Verification Test 3
 **Input:**
 ```text
-Write the input here.
+'ABC'
 ```
 **Expected Output:**
 ```text
-Write the expected output here.
+"The registration code must contain exactly 6 characters.""REGISTRATION NOT ACCEPTED"
 ```
 **Actual Output:**
 
 ```text
-Write the actual output here.
+"The registration code must contain exactly 6 characters.""REGISTRATION NOT ACCEPTED"
 ```
-**Result:** PASS / FAIL
+**Result:** PASS
 **Explanation:**
-> Explain why the output is correct or incorrect.
+> The registration code must indeed contain exactly 6 characters, but the input is validates the condition, leading to an unsuccessful output
 ---
 # Reflection
-Answer briefly.
+
 ### 1. Why should a program validate input before processing it?
 > A program should validate input before processing it to make sure the information entered is correct, complete, and follows the required format. This helps prevent errors and makes the program more reliable.
 ### 2. What is the difference between input validation and output verification?
