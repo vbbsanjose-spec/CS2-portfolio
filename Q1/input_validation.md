@@ -177,7 +177,7 @@ Test your program using both valid and invalid inputs.
 | 2 | Blank student name | Presence | "Invalid Answer. The name must not be blank. Put a proper student name..." "REGISTRATION NOT ACCEPTED"| "Invalid Answer. The name must not be blank. Put a proper student name..." "REGISTRATION NOT ACCEPTED" |PASS|
 | 3 | Age = `fourteen` | Data type | Error message asking for a numeric input.| Error message asking for a numeric input.| PASS|
 | 4 | Age = `11` | Minimum boundary |*Continuation of the program  | *Continuation of the program | PASS|
-| 5 | Age = `18` | Maximum boundary |Continuation of the program |Continuation of the program |PASS |
+| 5 | Age = `18` | Maximum boundary |*Continuation of the program |*Continuation of the program |PASS |
 | 6 | Age = `10` | Range |"Age must be from 11 to 18." "REGISTRATION NOT ACCEPTED" | "Age must be from 11 to 18." "REGISTRATION NOT ACCEPTED"|PASS |
 | 7 | Grade Level = `13` | Acceptable value |"Invalid grade level. It must be from 7 to 12" "REGISTRATION NOT ACCEPTED" |"Invalid grade level. It must be from 7 to 12" "REGISTRATION NOT ACCEPTED" | PASS|
 | 8 | Email = `studentpshs.edu.ph` | Pattern | "Invalid Email address, because @ and . is required.""REGISTRATION NOT ACCEPTED"|"Invalid Email address, because @ and . is required.""REGISTRATION NOT ACCEPTED" | PASS|
