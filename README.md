@@ -16,3 +16,5 @@ LINKS :
 >[Score_Checker.py](Q1/Score_Checker.py)
 
 >[input_validation.md](Q1/input_validation.md)
+
+>[workshop_validator.py](Q1/workshop_validator.py)
