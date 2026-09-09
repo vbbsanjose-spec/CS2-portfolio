@@ -29,15 +29,15 @@ Message |
 ---
 ## Validation Questions
 ### 1. Why should the student name not be blank?
-> Write your answer here.
+> A student name is required so the program can identify the student and avoid having incomplete information.
 ### 2. Why should age be checked for both data type and range?
 > Checking the data type stops the program from crashing if someone types letters instead of numbers. Checking the range ensures the age is realistic and not a negative number.
 ### 3. Why should grade level only accept specific values?
-> Write your answer here.
+> Limiting the grade level to specific values prevents invalid entries and ensures that the information matches the available grade levels.
 ### 4. What format requirements did you use for the email address?
-> Write your answer here.
+> The email address should contain an “@” symbol and a valid domain, such as “student@example.com,” to ensure it follows a proper email format.
 ### 5. What length requirement did you use for the registration code?
-> Write your answer here.
+> The registration code must have a specific number of characters to ensure that it follows the required format and helps prevent invalid codes.
 ---
 # Part B - Program Design
 Before writing your program, create either a **flowchart or pseudocode** showing its logic.
