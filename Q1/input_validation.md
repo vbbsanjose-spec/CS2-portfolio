@@ -189,37 +189,37 @@ Choose any **three tests** from Part D.
 ## Verification Test 1
 **Input:**
 ```text
-Write the input here.
+18
 
 ```
 **Expected Output:**
 ```text
-Write the expected output here.
+*Continuation of the program
 ```
 **Actual Output:**
 ```text
-Write the actual output here.
+*Continuation of the program
 ```
-**Result:** PASS / FAIL
-**Explanation:**
-> Explain why the output is correct or incorrect.
+**Result:** PASS 
+**Explanation:** 
+> It managed to recognize 18 because it is the maximum boundary 
 ---
 ## Verification Test 2
 **Input:**
 ```text
-Write the input here.
+`CS2026`
 ```
 **Expected Output:**
 ```text
-Write the expected output here.
+display of successful registration 
 ```
 **Actual Output:**
 ```text
-Write the actual output here.
+display of the registration result
 ```
-**Result:** PASS / FAIL
-**Explanation:**
-> Explain why the output is correct or incorrect.
+**Result:** PASS 
+**Explanation:** 
+> It is the last input being asked on the student so therefore, it would display the overall result
 ---
 ## Verification Test 3
 **Input:**
