@@ -19,11 +19,11 @@ if age < 11 or age > 18:
   valid = False 
 
 if grade_level < 7 or grade_level > 12:
-  print("Invalid grade level.") 
+  print("Invalid grade level. It must be from 7 to 12") 
   valid = False 
 
 if "@" not in email or "." not in email: 
-  print("Invalid Email address. @ and . is required.")
+  print("Invalid Email address, because @ and . is required.")
   valid = False
 
 if len(registration_code) > 6 or len(registration_code) < 6: 
