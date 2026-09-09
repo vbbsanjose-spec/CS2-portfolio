@@ -18,8 +18,7 @@ The program validates:
 ---
 # Part A - Validation Requirements
 
-| Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error
-Message |
+| Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error Message |
 |---|---|---|---|---|---|
 | Student Name | the name of the student which is a text | Presence validation|""(blank)|Name must not be blank |Please enter a proper name|
 | Age | | | | | |
