@@ -26,6 +26,7 @@ Message |
 | Grade Level | | | | | |
 | Email Address | | | | | |
 | Registration Code | | | | | |
+
 ---
 ## Validation Questions
 ### 1. Why should the student name not be blank?
