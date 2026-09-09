@@ -174,22 +174,21 @@ Explain the length rule you used.
 Test your program using both valid and invalid inputs.
 | Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result |
 |---:|---|---|---|---|---|
-| 1 | All inputs valid | Normal case | ------------------------------
+| 1 | All inputs valid | Normal case |------------------------------
  REGISTRATION ACCEPTED 
 ------------------------------
 Student: {name}
 Age: {age}
 Grade Level: {grad_level}
 Email: {email}
-Registration Code: {registratio_code}
-|------------------------------
+Registration Code: {registratio_code}|------------------------------
  REGISTRATION ACCEPTED 
 ------------------------------
 Student: {name}
 Age: {age}
 Grade Level: {grad_level}
 Email: {email}
-Registration Code: {registratio_code} |PASS|
+Registration Code: {registratio_code}|PASS|
 | 2 | Blank student name | Presence | | | |
 | 3 | Age = `fourteen` | Data type | | | |
 | 4 | Age = `11` | Minimum boundary | | | |
