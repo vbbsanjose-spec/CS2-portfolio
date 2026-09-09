@@ -101,7 +101,7 @@ END
 [`workshop_validator.py`](workshop_validator.py)
 ## Final Code
 ```python
-# valid = True
+valid = True
 
 name = str(input("Enter student name: "))
 
