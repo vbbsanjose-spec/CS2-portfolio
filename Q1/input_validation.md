@@ -129,13 +129,13 @@ Explain where you used range validation.
 
 ### Acceptable Value Validation
 Explain where you used acceptable value validation.
-> Write your answer here.
+> I used acceptable value validation for the grade level, allowing only grades 7 to 12.
 ### Pattern Validation
 Explain the simple pattern rule you used.
-> Write your answer here.
+> I used pattern validation for the email, checking if it contains "@" and ".".
 ### Length Validation
 Explain the length rule you used.
-> Write your answer here.
+> I used length validation for the registration code, making sure it has exactly 6 characters.
 ---
 # Part D - Testing
 Test your program using both valid and invalid inputs.
