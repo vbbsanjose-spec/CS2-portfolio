@@ -21,7 +21,7 @@ Complete the table below before writing your program.
 | Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error
 Message |
 |---|---|---|---|---|---|
-| Student Name | | | | | |
+| Student Name | the name of the student which is a text | Presence validation|""(blank)|Name must not be blank |Please enter a proper name|
 | Age | | | | | |
 | Grade Level | | | | | |
 | Email Address | | | | | |
