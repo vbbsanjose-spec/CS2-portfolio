@@ -93,13 +93,7 @@ END IF
 END
 ```
 
-Your design should show:
-- user input
-- validation decisions
-- error messages
-- accepted registration
-- rejected registration.
----
+
 # Part C - Program Implementation
 ## Programming Language
 > Write the programming language used.
