@@ -31,7 +31,7 @@ Message |
 ### 1. Why should the student name not be blank?
 > Write your answer here.
 ### 2. Why should age be checked for both data type and range?
-> Write your answer here.
+> Checking the data type stops the program from crashing if someone types letters instead of numbers. Checking the range ensures the age is realistic and not a negative number.
 ### 3. Why should grade level only accept specific values?
 > Write your answer here.
 ### 4. What format requirements did you use for the email address?
