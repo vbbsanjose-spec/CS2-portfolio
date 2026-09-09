@@ -96,7 +96,7 @@ END
 
 # Part C - Program Implementation
 ## Programming Language
-> Write the programming language used.
+> I used python as my programming language 
 ## Source Code File
 [`workshop_validator.py`](workshop_validator.py)
 ## Final Code
