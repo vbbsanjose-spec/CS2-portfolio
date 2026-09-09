@@ -20,9 +20,9 @@ The program validates:
 
 | Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error Message |
 |---|---|---|---|---|---|
-| Student Name | the name of the student which is a text | Presence validation|""(blank)|Name must not be blank |Please enter a proper name|
-| Age | | | | | |
-| Grade Level | | | | | |
+| Student Name | the name of the student(text) | Presence validation|""(blank)|Name must not be blank |Please enter a proper name|
+| Age | age of the student(Whole number)| Data Type & Acceptable Value Validation| abc or -5| age must be a number from 11 to 18| Please enter a valid age from 11 to 18.|
+| Grade Level | the grade level of the student(number)| Acceptable Value Validation | 13 | Grade level must be between 7 and 12. | Please enter a grade level from 7 to 12.|
 | Email Address | | | | | |
 | Registration Code | | | | | |
 ---
