@@ -173,18 +173,16 @@ Explain the length rule you used.
 Test your program using both valid and invalid inputs.
 | Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result |
 |---:|---|---|---|---|---|
-| 1 | All inputs valid | Normal case | Successful registration receipt displayed. | Successful registration receipt displayed. | PASS |
-| 2 | Blank student name | Presence | "Invalid Answer. The name must not be blank..." "REGISTRATION NOT ACCEPTED"| | |
-| 3 | Age = `fourteen` | Data type | | | |
-| 4 | Age = `11` | Minimum boundary | | | |
-| 5 | Age = `18` | Maximum boundary | | | |
-| 6 | Age = `10` | Range | | | |
-| 7 | Grade Level = `13` | Acceptable value | | | |
-| 8 | Email = `studentpshs.edu.ph` | Pattern | | | |
-| 9 | Registration Code = `ABC` | Length | | | |
-| 10 | Registration Code = `CS2026` | Valid length | | | |
-Write **PASS** when the actual output matches the expected output.
-Write **FAIL** when it does not.
+| 1 | All inputs valid | Normal case | *Continuation of the program | *Continuation of the program| PASS |
+| 2 | Blank student name | Presence | "Invalid Answer. The name must not be blank. Put a proper student name..." "REGISTRATION NOT ACCEPTED"| "Invalid Answer. The name must not be blank. Put a proper student name..." "REGISTRATION NOT ACCEPTED" |PASS|
+| 3 | Age = `fourteen` | Data type | Error message asking for a numeric input.| Error message asking for a numeric input.| PASS|
+| 4 | Age = `11` | Minimum boundary |*Continuation of the program  | *Continuation of the program | PASS|
+| 5 | Age = `18` | Maximum boundary |Continuation of the program |Continuation of the program |PASS |
+| 6 | Age = `10` | Range |"Age must be from 11 to 18." "REGISTRATION NOT ACCEPTED" | "Age must be from 11 to 18." "REGISTRATION NOT ACCEPTED"|PASS |
+| 7 | Grade Level = `13` | Acceptable value |"Invalid grade level. It must be from 7 to 12" "REGISTRATION NOT ACCEPTED" |"Invalid grade level. It must be from 7 to 12" "REGISTRATION NOT ACCEPTED" | PASS|
+| 8 | Email = `studentpshs.edu.ph` | Pattern | "Invalid Email address, because @ and . is required.""REGISTRATION NOT ACCEPTED"|"Invalid Email address, because @ and . is required.""REGISTRATION NOT ACCEPTED" | PASS|
+| 9 | Registration Code = `ABC` | Length |"The registration code must contain exactly 6 characters.""REGISTRATION NOT ACCEPTED" | "The registration code must contain exactly 6 characters.""REGISTRATION NOT ACCEPTED"|PASS |
+| 10 | Registration Code = `CS2026` | Valid length |*Continuation of the program | *Continuation of the program| PASS|
 ---
 # Part E - Output Verification
 Choose any **three tests** from Part D.
