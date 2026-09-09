@@ -173,8 +173,8 @@ Explain the length rule you used.
 Test your program using both valid and invalid inputs.
 | Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result |
 |---:|---|---|---|---|---|
-| 1 | All inputs valid | Normal case | | | |
-| 2 | Blank student name | Presence | | | |
+| 1 | All inputs valid | Normal case | Successful registration receipt displayed. | Successful registration receipt displayed. | PASS |
+| 2 | Blank student name | Presence | "Invalid Answer. The name must not be blank..." "REGISTRATION NOT ACCEPTED"| | |
 | 3 | Age = `fourteen` | Data type | | | |
 | 4 | Age = `11` | Minimum boundary | | | |
 | 5 | Age = `18` | Maximum boundary | | | |
