@@ -49,7 +49,52 @@ OR
 
 ```text
 START
-Write your pseudocode here.
+
+Set "valid" to TRUE
+
+INPUT student name
+
+Enter age
+Enter grade level
+Enter email address
+Enter registration code
+
+IF name is blank THEN
+DISPLAY "Invalid Answer. The name must not be blank."
+Set "valid" to FALSE
+END IF
+
+IF age is less than 11 OR age is greater than 18 THEN
+DISPLAY "Age must be from 11 to 18"
+Set "valid" to FALSE
+END IF
+
+IF grade level is less than 7 OR grade level is greater than 12 THEN
+DISPLAY "Invalid grade level."
+Set "valid" to FALSE
+END IF
+
+IF email does not contain "@" OR email does not contain "." THEN
+DISPLAY "Invalid Email address. @ and . is required."
+Set "valid" to FALSE
+END IF
+
+IF length of registration code is not equal to 6 THEN
+DISPLAY "The registration code must contain exactly 6 characters."
+Set "valid" to FALSE
+END IF
+
+IF "valid" is TRUE THEN
+DISPLAY "REGISTRATION ACCEPTED"
+DISPLAY student name
+DISPLAY age
+DISPLAY grade level
+DISPLAY email
+DISPLAY registration code
+ELSE
+DISPLAY "REGISTRATION NOT ACCEPTED"
+END IF
+
 END
 ```
 
@@ -74,13 +119,13 @@ Your design should show:
 ## Validation Techniques Used
 ### Presence Validation
 Explain where you used presence validation.
-> Write your answer here.
+> I used the presence validation in asking for the name of the student.
 ### Data Type Validation
 Explain where you used data type validation.
-> Write your answer here.
+> I used data type validation for the age and grade level to make sure the input is a number.
 ### Range Validation
 Explain where you used range validation.
-> Write your answer here.
+> I used range validation for the age and grade level to make sure they are within the allowed range.
 
 ### Acceptable Value Validation
 Explain where you used acceptable value validation.
