@@ -245,17 +245,14 @@ Write the actual output here.
 # Reflection
 Answer briefly.
 ### 1. Why should a program validate input before processing it?
-> Write your answer here.
+> A program should validate input before processing it to make sure the information entered is correct, complete, and follows the required format. This helps prevent errors and makes the program more reliable.
 ### 2. What is the difference between input validation and output verification?
-> Write your answer here.
+> Input validation checks whether the data entered by the user is valid before the program processes it. Output verification checks whether the program produces the correct result after processing the input.
 ### 3. Which validation technique was easiest for you to implement? Why?
-> Write your answer here.
+> Presence validation was the easiest for me to implement because I only needed to check if the name part was left blank.
 ### 4. Which validation technique was most challenging? Why?
-> Write your answer here.
+> Pattern validation was the most challenging because I needed to make sure that the input in the email address must follow a specific format.
 ### 5. How did testing invalid inputs help you improve your program?
-> Write your answer here.
+> Testing invalid inputs helped me find errors and weaknesses in my program. It allowed me to improve the validation so that the program could properly handle incorrect or unexpected data.
 ---
-# Files for This Activity
-- [`workshop_validator.py`](workshop_validator.py)
-- `input_validation.md`
-- `workshop_validator_flowchart.png` if a flowchart was used
+
