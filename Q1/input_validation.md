@@ -35,9 +35,9 @@ Message |
 ### 3. Why should grade level only accept specific values?
 > Limiting the grade level to specific values prevents invalid entries and ensures that the information matches the available grade levels.
 ### 4. What format requirements did you use for the email address?
-> The email address should contain an “@” symbol and a valid domain, such as “student@example.com,” to ensure it follows a proper email format.
+> The email address should contain an “@” and "." symbol.
 ### 5. What length requirement did you use for the registration code?
-> The registration code must have a specific number of characters to ensure that it follows the required format and helps prevent invalid codes.
+> The registration code must have a specific number of characters, which is 6, to ensure that it follows the required format and helps prevent invalid codes.
 ---
 # Part B - Program Design
 Before writing your program, create either a **flowchart or pseudocode** showing its logic.
