@@ -40,11 +40,6 @@ Message |
 > The registration code must have a specific number of characters, which is 6, to ensure that it follows the required format and helps prevent invalid codes.
 ---
 # Part B - Program Design
-Before writing your program, create either a **flowchart or pseudocode** showing its logic.
-## Flowchart
-Insert your flowchart below.
-![Workshop Validator Flowchart](workshop_validator_flowchart.png)
-OR
 ## Pseudocode
 
 ```text
