@@ -20,11 +20,12 @@ The program validates:
 
 | Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error Message |
 |---|---|---|---|---|---|
-| Student Name | the name of the student(text) | Presence validation|""(blank)|Name must not be blank |Please enter a proper name|
-| Age | age of the student(Whole number)| Data Type & Acceptable Value Validation| abc or -5| age must be a number from 11 to 18| Please enter a valid age from 11 to 18.|
-| Grade Level | the grade level of the student(number)| Acceptable Value Validation | 13 | Grade level must be between 7 and 12. | Please enter a grade level from 7 to 12.|
-| Email Address | | | | | |
-| Registration Code | | | | | |
+| Student Name | text | Presence validation|""(blank)|Name must not be blank |Please enter a proper name|
+| Age | whole number| Data Type & Acceptable Value Validation| abc or -5| age must be a number from 11 to 18| Please enter a valid age from 11 to 18.|
+| Grade Level | whole number| Acceptable Value Validation | 13 | Grade level must be between 7 and 12. | Please enter a grade level from 7 to 12.|
+| Email Address | text in email format|Pattern Validation
+student@email |student@email |Email must contain @ and . | Please enter a valid email address.|
+| Registration Code | text with 6 characters| Length Validation| ABC12| Registration code must contain exactly 6 characters.| Registration code must be exactly 6 characters.|
 ---
 ## Validation Questions
 ### 1. Why should the student name not be blank?
