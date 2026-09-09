@@ -182,7 +182,7 @@ Test your program using both valid and invalid inputs.
 | 7 | Grade Level = `13` | Acceptable value |"Invalid grade level. It must be from 7 to 12" "REGISTRATION NOT ACCEPTED" |"Invalid grade level. It must be from 7 to 12" "REGISTRATION NOT ACCEPTED" | PASS|
 | 8 | Email = `studentpshs.edu.ph` | Pattern | "Invalid Email address, because @ and . is required.""REGISTRATION NOT ACCEPTED"|"Invalid Email address, because @ and . is required.""REGISTRATION NOT ACCEPTED" | PASS|
 | 9 | Registration Code = `ABC` | Length |"The registration code must contain exactly 6 characters.""REGISTRATION NOT ACCEPTED" | "The registration code must contain exactly 6 characters.""REGISTRATION NOT ACCEPTED"|PASS |
-| 10 | Registration Code = `CS2026` | Valid length |*Continuation of the program | *Continuation of the program| PASS|
+| 10 | Registration Code = `CS2026` | Valid length |display of successful registration| display of successful registration| PASS|
 ---
 # Part E - Output Verification
 Choose any **three tests** from Part D.
