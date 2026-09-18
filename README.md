@@ -18,3 +18,7 @@ LINKS :
 >[input_validation.md](Q1/input_validation.md)
 
 >[workshop_validator.py](Q1/workshop_validator.py)
+
+>[cybersecurity.md](Q1/cybersecurity.md)
+
+>[secure_registration.py](Q1/secure_registration.py)
