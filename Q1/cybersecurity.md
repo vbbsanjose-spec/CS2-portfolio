@@ -49,14 +49,14 @@ A proposed Club Registration System wants to collect the following information.
 Determine whether each item is really necessary.
 | Data | Collect / Do Not Collect | Reason |
 |---|---|---|
-| Student Name | | |
-| Section | | |
-| Club Choice | | |
-| School Email | | |
-| Attendance Status | | |
-| Password | | |
-| OTP | | |
-| Home Address | | |
+| Student Name | Collect | It gives the registration system an proper way to identify the student|
+| Section | Collect | It also provides easier process of identifying a student|
+| Club Choice | Collect | The whole point of the system is to collect the preferred club of each student |
+| School Email | Collect | So the system can have contact with the student |
+| Attendance Status | Collect | To record the student's attendance status.|
+| Password | Do not collect | It is not needed and a system member may invade the account of the student|
+| OTP | Do not collect | An OTP is authentication information and is unnecessary for this activity. |
+| Home Address | Do not collect | Financial information is unrelated to club registration and is highly sensitive. |
 
 | Parent Bank Account | | |
 ---
