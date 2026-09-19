@@ -34,9 +34,15 @@ username and password.
 > - Network - A compromised account or device could create additional security risks on the school network.
 > - Financial information - While the fake login message may not directly request financial information, an attacker who gains access to an account could potentially use the account to target other information or services.
 ### 4. What information could be exposed or misused?
-> Write your answer here.
+> The student's username and password could be stolen. If the attacker successfully accesses the school account, they may also gain access to information stored in that account.
 ### 5. What should the user do to reduce the risk?
-> Write your answer here.
+> - The student should:
+> - Not click the suspicious link.
+> - Not enter their username or password into the linked page.
+> - Verify the message using an official school channel.
+> - Report the suspicious message to the appropriate teacher, school administrator, or IT personnel.
+> - Delete or safely ignore the message after reporting it.
+> - If credentials were already entered, immediately report the incident and change the affected password through the official school system.
 ---
 # Part B - Data Privacy and Secure Data Capture
 A proposed Club Registration System wants to collect the following information.
