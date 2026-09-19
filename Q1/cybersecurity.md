@@ -1,7 +1,7 @@
 # Fundamentals of Cybersecurity and Data Privacy
 **Activity:** PSHS Secure Club Registration System
-**Name:** Your Name
-**Section:** Your Section
+**Name:** Vince Bryll B. San Jose
+**Section:** Dahlia
 **Quarter:** 1
 ---
 ## Activity Overview
@@ -14,22 +14,26 @@ expected, and appropriate input.
 ## Assigned Case
 
 **Case Number:**
-**Case Title:**
-> Briefly describe the case here.
+**Case Title:** Fake Login Alert
+> A message claims that the student's account will be disabled and asks them to click a link and enter their
+username and password.
 ---
 ### 1. What cybersecurity threat is shown?
-> Write your answer here.
+> The cybersecurity threat being illustrated here is Phishing, where an attacker uses a fake message in order to get an individual's login  information.
 ### 2. What warning signs make the situation suspicious?
-> Write your answer here.
+> Signs that make the situation suspicious:
+> It creates a sense of urgency by saying that the account will be disabled
+> It asks the student to click an unfamiliar link
+> It requires sensitive login info such as username and password
+> The message may come from an anonymous and suspicious sender
 ### 3. What may be affected?
-Check or describe all that apply:
-- Data
-- Account
-- Application
+> Check or describe all that apply:
+- Data - Check. The attacker asks for the student's login information which can be accessed and leaked.
+- Account - Check. The student's account could be taken over.
+- Application - A malicious link could potentially lead to harmful downloads or other attacks.
 - Device
-- Network
-- Financial information
-> Explain your answer.
+- Network - A compromised account or device could create additional security risks on the school network.
+- Financial information - While the fake login message may not directly request financial information, an attacker who gains access to an account could potentially use the account to target other information or services.
 ### 4. What information could be exposed or misused?
 > Write your answer here.
 ### 5. What should the user do to reduce the risk?
