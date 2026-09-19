@@ -27,13 +27,12 @@ username and password.
 > It requires sensitive login info such as username and password
 > The message may come from an anonymous and suspicious sender
 ### 3. What may be affected?
-> Check or describe all that apply:
-- Data - Check. The attacker asks for the student's login information which can be accessed and leaked.
-- Account - Check. The student's account could be taken over.
-- Application - A malicious link could potentially lead to harmful downloads or other attacks.
-- Device
-- Network - A compromised account or device could create additional security risks on the school network.
-- Financial information - While the fake login message may not directly request financial information, an attacker who gains access to an account could potentially use the account to target other information or services.
+> - Data - The attacker asks for the student's login information which can be invased and leaked.
+> - Account - The student's account could be taken over.
+> - Application - School applications connected to the account could be accessed.
+> - Device - A malicious link could potentially lead to harmful downloads or other attacks.
+> - Network - A compromised account or device could create additional security risks on the school network.
+> - Financial information - While the fake login message may not directly request financial information, an attacker who gains access to an account could potentially use the account to target other information or services.
 ### 4. What information could be exposed or misused?
 > Write your answer here.
 ### 5. What should the user do to reduce the risk?
