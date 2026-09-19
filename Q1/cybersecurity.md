@@ -22,10 +22,10 @@ username and password.
 > The cybersecurity threat being illustrated here is Phishing, where an attacker uses a fake message in order to get an individual's login  information.
 ### 2. What warning signs make the situation suspicious?
 > Signs that make the situation suspicious:
-> It creates a sense of urgency by saying that the account will be disabled
-> It asks the student to click an unfamiliar link
-> It requires sensitive login info such as username and password
-> The message may come from an anonymous and suspicious sender
+> - It creates a sense of urgency by saying that the account will be disabled
+> - It asks the student to click an unfamiliar link
+> - It requires sensitive login info such as username and password
+> - The message may come from an anonymous and suspicious sender
 ### 3. What may be affected?
 > - Data - The attacker asks for the student's login information which can be invased and leaked.
 > - Account - The student's account could be taken over.
