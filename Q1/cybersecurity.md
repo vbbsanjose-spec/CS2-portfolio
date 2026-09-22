@@ -1,8 +1,13 @@
 # Fundamentals of Cybersecurity and Data Privacy
+
 **Activity:** PSHS Secure Club Registration System
+
 **Name:** Vince Bryll B. San Jose
+
 **Section:** Dahlia
+
 **Quarter:** 1
+
 ---
 ## Activity Overview
 In this activity, I analyzed a cybersecurity threat and developed secure data-capture rules for a simple
@@ -27,7 +32,7 @@ username and password.
 > - It requires sensitive login info such as username and password
 > - The message may come from an anonymous and suspicious sender
 ### 3. What may be affected?
-> - Data - The attacker asks for the student's login information which can be invased and leaked.
+> - Data - The attacker asks for the student's login information which can be accessed and leaked.
 > - Account - The student's account could be taken over.
 > - Application - School applications connected to the account could be accessed.
 > - Device - A malicious link could potentially lead to harmful downloads or other attacks.
@@ -56,8 +61,8 @@ Determine whether each item is really necessary.
 | Attendance Status | Collect | To record the student's attendance status.|
 | Password | Do not collect | It is not needed and a system member may invade the account of the student|
 | OTP | Do not collect | An OTP is authentication information and is unnecessary for this activity. |
-| Home Address | Do not collect | Financial information is unrelated to club registration and is highly sensitive. |
-| Parent Bank Account | Do not collect | 	Not needed and is sensitive information. |
+| Home Address | Do not collect | Location is unrelated to club registration and is highly sensitive. |
+| Parent Bank Account | Do not collect | Not needed and is sensitive information. |
 ---
 ## Privacy Question
 Why is it safer to collect only information that the program actually needs?
@@ -98,7 +103,7 @@ It should **not request passwords, OTPs, banking information, or unnecessary per
 ---
 ## Final Code
 ```python
-# # PSHS Secure Club Registration System
+#PSHS Secure Club Registration System
 
 valid_sections = ["Sapphire", "Emerald", "Jade", "Diamond", "Ilang-ilang", "Dahlia", "Rosal", "Sampaguita", "Beryllium", "Platinum", "Magnesium", "Silicon", "Gluon", "Electron", "Proton", "Photon", "Graviton", "Biology", "Physics", "Bio-Chemistry", "Chemistry"]
 valid_clubs = ["Robotics", "Science", "Mathematics", "Programming"]
@@ -126,11 +131,11 @@ while club not in valid_clubs:
     club = input("Club Choice: ").strip().title()
 
 
-email = input("School Email: ").strip().title()
+email = input("School Email: ").strip()
 
 while "@" not in email or "." not in email:
     print("Please enter a valid school email.")
-    email = input("School Email: ").strip().title()
+    email = input("School Email: ").strip()
 
 
 attendance = input("Attendance Status: ").strip().title()
@@ -155,7 +160,7 @@ print("Attendance:", attendance)
 ### Required Input
 > The student name is checked after removing surrounding spaces. If the input is blank, the program displays an error message and asks for the name again.
 ### Allowed Values
-> The program uses lists for the accepted inputs. The while conditions check if the input is acceptable, and it includes .title() and .strip().
+> The program uses lists for the accepted inputs. The while conditions check if the input is acceptable, and it includes .title() which helps capitalize the first letter of the input and .strip(). which helps by removing extra spaces.
 ### Format Check
 > The program makes the student re-enter an email account when @ and . is missing.
 ### Error Messages
@@ -167,28 +172,26 @@ print("Attendance:", attendance)
 ## Testing
 | Test | Input Situation | Expected Output | Actual Output | Result |
 |---:|---|---|---|---|
-| 1 | All data valid | | | |
-| 2 | Blank student name | | | |
-| 3 | Invalid section | | | |
+| 1 | All data valid | Registration Accepted | Registration Accepted | PASS |
+| 2 | Blank student name | Student name is required | Student name is required  | PASS |
+| 3 | Invalid section | Please choose a valid section. | Please choose a valid section. | PASS |
 
-| 4 | Invalid club choice | | | |
-| 5 | Email missing `@` | | | |
-| 6 | Email missing `.` | | | |
-| 7 | Invalid attendance status | | | |
-| 8 | Different valid inputs | | | |
-Use:
-- **PASS** if the actual result matches the expected result.
-- **FAIL** if it does not.
+| 4 | Invalid club choice | Please choose a valid club. | Please choose a valid club. | PASS |
+| 5 | Email missing `@` | Please enter a valid school email. | Please enter a valid school email. | PASS |
+| 6 | Email missing `.` | Please enter a valid school email. | Please enter a valid school email.| PASS |
+| 7 | Invalid attendance status | Please choose a valid attendance status. | Please choose a valid attendance status. | PASS |
+| 8 | Different valid inputs | Registration Accepted | Registration Accepted | PASS |
+
 ---
 # Reflection
 ### 1. What is one cybersecurity threat that can affect an application or user?
-> Write your answer here.
+> Phishing is an example of cybersecurity threat that allows hackers to trick individuals to download malicious soft wares and share their personal information. With their private data, hackers can access through their accounts or misuse their information.
 ### 2. How can users reduce the risk of phishing or suspicious messages?
-> Write your answer here.
+> Netizens can decrease the danger of dangerous messages by being aware of the media's risks and threats.
 ### 3. How can validation rules improve the security of user input?
-> Write your answer here.
+> Validation rules help make sure that only correct and expected information is accepted by the program.
 ### 4. Why should a program avoid collecting unnecessary personal information?
-> Write your answer here.
+> A program should avoid collecting unnecessary information because it helps protect the user's privacy and reduces the amount of information that could be misused. 
 ### 5. How did SG7's input validation concepts become security practices in SG8?
-> Write your answer here.
+> SG7 taught me how to check if the information entered is correct. In SG8, I applied this concept to security by making sure that the program only accepts appropriate and expected information.
 ---
