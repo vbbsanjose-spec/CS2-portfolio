@@ -98,20 +98,70 @@ It should **not request passwords, OTPs, banking information, or unnecessary per
 ---
 ## Final Code
 ```python
-# student_name = 
+# # PSHS Secure Club Registration System
+
+valid_sections = ["Sapphire", "Emerald", "Jade", "Diamond", "Ilang-ilang", "Dahlia", "Rosal", "Sampaguita", "Beryllium", "Platinum", "Magnesium", "Silicon", "Gluon", "Electron", "Proton", "Photon", "Graviton", "Biology", "Physics", "Bio-Chemistry", "Chemistry"]
+valid_clubs = ["Robotics", "Science", "Mathematics", "Programming"]
+valid_attendance = ["Present", "Absent", "Late"]
+
+
+student_name = input("Student Name: ").strip().title()
+
+while student_name == "":
+    print("Student name is required.")
+    student_name = input("Student Name: ").strip().title()
+
+
+section = input("Section: ").strip().title()
+
+while section not in valid_sections:
+    print("Please choose a valid section.")
+    section = input("Section: ").strip().title()
+
+
+club = input("Club Choice: ").strip().title()
+
+while club not in valid_clubs:
+    print("Please choose a valid club.")
+    club = input("Club Choice: ").strip().title()
+
+
+email = input("School Email: ").strip().title()
+
+while "@" not in email or "." not in email:
+    print("Please enter a valid school email.")
+    email = input("School Email: ").strip().title()
+
+
+attendance = input("Attendance Status: ").strip().title()
+
+while attendance not in valid_attendance:
+    print("Please choose a valid attendance status.")
+    attendance = input("Attendance Status: ").strip().title()
+
+
+print("--------------------------------")
+print("REGISTRATION ACCEPTED")
+print("--------------------------------")
+print("Student:", student_name)
+print("Section:", section)
+print("Club:", club)
+print("Email:", email)
+print("Attendance:", attendance)
+
 ```
 ---
 ## Security Practices Applied
 ### Required Input
-> Explain how you handled blank input.
+> The student name is checked after removing surrounding spaces. If the input is blank, the program displays an error message and asks for the name again.
 ### Allowed Values
-> Explain which fields accept only predefined values.
+> The program uses lists for the accepted inputs. The while conditions check if the input is acceptable, and it includes .title() and .strip().
 ### Format Check
-> Explain your simple email validation rule.
+> The program makes the student re-enter an email account when @ and . is missing.
 ### Error Messages
-> Explain why clear error messages are useful.
+> Clear error messages helps the students clearly understand their mistake their input
 ### Data Minimization
-> Explain what information you intentionally did NOT collect and why.
+> The program only collects information needed for the club registration. It does not collect passwords, OTPs, home addresses, or banking information, because of safety and managing issues.
 ---
 # Part E - Testing and Reflection
 ## Testing
