@@ -75,11 +75,11 @@ Why is it safer to collect only information that the program actually needs?
 ---
 ## Secure Data Capture Questions
 ### 1. What should your program accept?
-> Write your answer here.
+> It should accept a valid name, section, club, school email, and attendance status.
 ### 2. What should your program reject?
-> Write your answer here.
+> It should reject blank names and invalid sections, clubs, emails, and attendance statuses.
 ### 3. How do your validation rules help reduce incorrect or unsafe input?
-> Write your answer here.
+> It contributes to the efficiency of the program by preventing incorrect information from being accepted into the program.
 ---
 # Part D - Secure Program Implementation
 ## Program
