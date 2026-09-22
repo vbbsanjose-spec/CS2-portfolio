@@ -65,14 +65,14 @@ Why is it safer to collect only information that the program actually needs?
 > Because collecting unnecessary information will not contribute anything to the system. In addition to that, these nonessential information can be dangerous when shared to someone that may have possibly bad intensions with it. Finally, collecting more data can be hassle and messy when organizing.
 ---
 # Part C - Security-Focused Validation Rules
-Complete the table before writing your program.
+
 | Data Captured | Expected Input | Possible Risk | Invalid Input Example | Validation Rule | Error
 Message |
 |---|---|---|---|---|---|
 | Student Name | A non-blank student name | Missing registration information | [blank] or blank input | Remove surrounding spaces and require at least one character | Student Name is required|
 | Section | Ilang-ilang, Rosal, Sampaguita, or Dahlia (teacher approved)| Wrong section | Lily | Must be an approved section | Please enter a valid section |
-| Club Choice | | | | | |
-| School Email | | | | | |
+| Club Choice | 	Robotics, Science, Mathematics, or Programming| Wrong club | Gaming | Must be an approved club| Please enter a valid club|
+| School Email | 	Email with @ and . | Wrong email | vbbsanjose.brc.pshs.eduph | 	Must contain @ and .| 	Please enter a valid school email. |
 | Attendance Status | | | | | |
 ---
 ## Secure Data Capture Questions
