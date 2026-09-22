@@ -62,15 +62,15 @@ Determine whether each item is really necessary.
 ---
 ## Privacy Question
 Why is it safer to collect only information that the program actually needs?
-> Write your answer here.
+> Because collecting unnecessary information will not contribute anything to the system. In addition to that, these nonessential information can be dangerous when shared to someone that may have possibly bad intensions with it. Finally, collecting more data can be hassle and messy when organizing.
 ---
 # Part C - Security-Focused Validation Rules
 Complete the table before writing your program.
 | Data Captured | Expected Input | Possible Risk | Invalid Input Example | Validation Rule | Error
 Message |
 |---|---|---|---|---|---|
-| Student Name | | | | | |
-| Section | | | | | |
+| Student Name | A non-blank student name | Missing registration information | [blank] or blank input | Remove surrounding spaces and require at least one character | Student Name is required|
+| Section | Ilang-ilang, Rosal, Sampaguita, or Dahlia (teacher approved)| Wrong section | Lily | Must be an approved section | Please enter a valid section |
 | Club Choice | | | | | |
 | School Email | | | | | |
 | Attendance Status | | | | | |
