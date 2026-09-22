@@ -98,7 +98,7 @@ It should **not request passwords, OTPs, banking information, or unnecessary per
 ---
 ## Final Code
 ```python
-# Paste your final program here.
+# student_name = 
 ```
 ---
 ## Security Practices Applied
