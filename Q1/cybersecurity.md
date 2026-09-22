@@ -71,7 +71,7 @@ Why is it safer to collect only information that the program actually needs?
 | Section | Ilang-ilang, Rosal, Sampaguita, or Dahlia (teacher approved)| Wrong section | Lily | Must be an approved section | Please enter a valid section |
 | Club Choice | 	Robotics, Science, Mathematics, or Programming| Wrong club | Gaming | Must be an approved club| Please enter a valid club|
 | School Email | 	Email with @ and . | Wrong email | vbbsanjose.brc.pshs.eduph | 	Must contain @ and .| 	Please enter a valid school email. |
-| Attendance Status | | | | | |
+| Attendance Status | Present, Absent, or Late | Wrong attendance | Secret |  Must be a valid status | 	Please choose a valid attendance status.|
 ---
 ## Secure Data Capture Questions
 ### 1. What should your program accept?
