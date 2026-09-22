@@ -57,8 +57,7 @@ Determine whether each item is really necessary.
 | Password | Do not collect | It is not needed and a system member may invade the account of the student|
 | OTP | Do not collect | An OTP is authentication information and is unnecessary for this activity. |
 | Home Address | Do not collect | Financial information is unrelated to club registration and is highly sensitive. |
-
-| Parent Bank Account | | |
+| Parent Bank Account | Do not collect | 	Not needed and is sensitive information. |
 ---
 ## Privacy Question
 Why is it safer to collect only information that the program actually needs?
@@ -66,10 +65,9 @@ Why is it safer to collect only information that the program actually needs?
 ---
 # Part C - Security-Focused Validation Rules
 
-| Data Captured | Expected Input | Possible Risk | Invalid Input Example | Validation Rule | Error
-Message |
+| Data Captured | Expected Input | Possible Risk | Invalid Input Example | Validation Rule | Error Message |
 |---|---|---|---|---|---|
-| Student Name | A non-blank student name | Missing registration information | [blank] or blank input | Remove surrounding spaces and require at least one character | Student Name is required|
+| Student Name | A non-blank student name | Missing registration information | [blank] or blank input | Remove surrounding spaces and require at least one character | Student Name is required |
 | Section | Ilang-ilang, Rosal, Sampaguita, or Dahlia (teacher approved)| Wrong section | Lily | Must be an approved section | Please enter a valid section |
 | Club Choice | 	Robotics, Science, Mathematics, or Programming| Wrong club | Gaming | Must be an approved club| Please enter a valid club|
 | School Email | 	Email with @ and . | Wrong email | vbbsanjose.brc.pshs.eduph | 	Must contain @ and .| 	Please enter a valid school email. |
