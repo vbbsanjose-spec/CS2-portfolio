@@ -105,7 +105,7 @@ It should **not request passwords, OTPs, banking information, or unnecessary per
 ```python
 #PSHS Secure Club Registration System
 
-valid_sections = ["Sapphire", "Emerald", "Jade", "Diamond", "Ilang-ilang", "Dahlia", "Rosal", "Sampaguita", "Beryllium", "Platinum", "Magnesium", "Silicon", "Gluon", "Electron", "Proton", "Photon", "Graviton", "Biology", "Physics", "Bio-Chemistry", "Chemistry"]
+valid_sections = ["Sapphire", "Emerald", "Jade", "Diamond", "Ilang-Ilang", "Dahlia", "Rosal", "Sampaguita", "Beryllium", "Platinum", "Magnesium", "Silicon", "Gluon", "Electron", "Proton", "Photon", "Graviton", "Biology", "Physics", "Bio-Chemistry", "Chemistry"]
 valid_clubs = ["Robotics", "Science", "Mathematics", "Programming"]
 valid_attendance = ["Present", "Absent", "Late"]
 
