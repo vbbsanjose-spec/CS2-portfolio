@@ -175,7 +175,6 @@ print("Attendance:", attendance)
 | 1 | All data valid | Registration Accepted | Registration Accepted | PASS |
 | 2 | Blank student name | Student name is required | Student name is required  | PASS |
 | 3 | Invalid section | Please choose a valid section. | Please choose a valid section. | PASS |
-
 | 4 | Invalid club choice | Please choose a valid club. | Please choose a valid club. | PASS |
 | 5 | Email missing `@` | Please enter a valid school email. | Please enter a valid school email. | PASS |
 | 6 | Email missing `.` | Please enter a valid school email. | Please enter a valid school email.| PASS |
