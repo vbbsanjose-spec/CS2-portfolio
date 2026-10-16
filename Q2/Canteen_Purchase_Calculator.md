@@ -22,44 +22,28 @@ CalculateChange(payment, total): Subtracts the total cost from the amount paid. 
     - It promotes modularity, readability, and reusability. Each function has a single, clear responsibility, making the code easier to debug, test, and maintain independently.
 
 
-def CalculateTotal(price, quantity):
-    """Calculates and returns the total purchase cost.""[span_0](start_span)"[span_0](end_span)
+ def calculate_total(price, quantity):
     return price * quantity
 
 
-def CalculateChange(payment, total):
-    """Calculates and returns the change, or handles insufficient 
-
-    payment by returning the shortage amount.
-    ""[span_1](start_span)"[span_1](end_span)
-    change = payment - total
-    # If payment is insufficient, display/return the additional amount needed
-    if change < 0:
-        return abs(change)
-    return change
+def calculate_change(payment, total):
+    return payment - total
 
 
-def main():
-# 1. Ask for the item's price, quantity, and payment[span_2](start_span)[span_2](end_span)
+# Ask for item inputs
 price = float(input("Enter item price: "))
 quantity = int(input("Enter quantity: "))
 payment = float(input("Enter amount paid: "))
 
-# 2 & 3. Pass the price and quantity to calculate_total() and store the result[span_3](start_span)[span_3](end_span)
-total_cost = CalculateTotal(price, quantity)
+# Calculate total and change
+total_cost = calculate_total(price, quantity)
+change = calculate_change(payment, total_cost)
 
-# 4. Pass the payment and computed total to calculate_change()[span_4](start_span)[span_4](end_span) change_or_shortage = CalculateChange(payment, total_cost)
-
-# 5. Display the total cost[span_5](start_span)[span_5](end_span)
+# Display results
 print(f"Total Cost: PHP {total_cost:.2f}")
 
-# 6. Display change or shortage message depending on payment adequacy[span_6](start_span)[span_6](end_span)
-if payment < total_cost:
-    print(f"Shortage: PHP {change_or_shortage:.2f}")
+if change < 0:
+    print(f"Shortage: PHP {abs(change):.2f}")
 else:
-    print(f"Change: PHP {change_or_shortage:.2f}")
-
-
-if __name__ == "__main__":
-    main()
-
+    print(f"Change: PHP {change:.2f}")
+    
