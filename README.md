@@ -22,3 +22,5 @@ LINKS :
 >[cybersecurity.md](Q1/cybersecurity.md)
 
 >[secure_registration.py](Q1/secure_registration.py)
+
+>[Canteen_Purchase_Calculator](Q2/Canteen_Purchase_Calculator)
