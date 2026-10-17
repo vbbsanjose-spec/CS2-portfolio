@@ -21,7 +21,7 @@ CalculateChange(payment, total): Subtracts the total cost from the amount paid. 
 # 4. Why is it useful to separate total calculation from change calculation?
     - It promotes modularity, readability, and reusability. Each function has a single, clear responsibility, making the code easier to debug, test, and maintain independently.
 
-python'''
+'''python
 
 def calculate_total(price, quantity):
    return price * quantity
