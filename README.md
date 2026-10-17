@@ -23,4 +23,6 @@ LINKS :
 
 >[secure_registration.py](Q1/secure_registration.py)
 
->[Canteen_Purchase_Calculator](Q2/Canteen_Purchase_Calculator)
+>[Canteen_Purchase_Calculator.md](Q2/Canteen_Purchase_Calculator.md)
+
+>[Canteen_Purchase_Calculator.py](Q2/Canteen_Purchase_Calculator.py)
