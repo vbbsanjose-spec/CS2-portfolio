@@ -1,10 +1,10 @@
-# Problem Description
+# ~~~~ Problem Description ~~~~
 The school canteen needs a simple program to calculate the total cost of a purchase and the customers
 change. Create a program that asks the user to enter the price of an item, the quantity purchased and
 the amount paid.
 
 
-# Documentation Answers (Question 1-4)
+# ~~~~ Documentation Answers ~~~~
 
 ## 1. What does each function do?
 multiply_num(price, quantity): Multiplies the item price by the quantity purchased to return the total purchase cost.
