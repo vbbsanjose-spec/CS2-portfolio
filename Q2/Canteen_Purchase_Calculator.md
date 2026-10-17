@@ -20,7 +20,7 @@ The total is stored in total_cost. It is used to calculate the change or shortag
 ## 4. Why is it useful to separate total calculation from change calculation?
 It makes the program easier to understand, organize, and fix because every function has its own purpose. 
 
-# -----------------------------------------------------------------------------------------------------------
+
 
 # ~~~~ FINAL CODE ~~~~
 ```python
@@ -56,4 +56,4 @@ else:
   print("Your shortage amount is", change)
 
 ```
-# -----------------------------------------------------------------------------------------------------------
+
