@@ -21,31 +21,33 @@ CalculateChange(payment, total): Subtracts the total cost from the amount paid. 
 # 4. Why is it useful to separate total calculation from change calculation?
     - It promotes modularity, readability, and reusability. Each function has a single, clear responsibility, making the code easier to debug, test, and maintain independently.
 
+------
 '''python
 
-def calculate_total(price, quantity):
-   return price * quantity
+def multiply_num(price, quantity):
+  magkano_lahat = price * quantity
+  return magkano_lahat
 
+def subtract_num(payment, total_cost):
+  if payment >= total_cost:
+    return payment - total_cost
+  else:
+    return total_cost - payment
+  
+price = float(input("How much is the item?:"))
+quantity = int(input("How many do you want to buy?:"))
+payment = float(input("Enter amount you want to give:"))
 
-def calculate_change(payment, total):
-    return payment - total
+total_cost = multiply_num(price, quantity)
+change = subtract_num(payment, total_cost)
 
+print("The total cost is", total_cost)
 
-# Ask for item inputs
-price = float(input("Enter item price: "))
-quantity = int(input("Enter quantity: "))
-payment = float(input("Enter amount paid: "))
+if payment >= total_cost:
+  print("Your change is", change)
 
-# Calculate total and change
-total_cost = calculate_total(price, quantity)
-change = calculate_change(payment, total_cost)
-
-# Display results
-print(f"Total Cost: PHP {total_cost:.2f}")
-
-if change < 0:
-    print(f"Shortage: PHP {abs(change):.2f}")
 else:
-    print(f"Change: PHP {change:.2f}")
+  print("Your shortage amount is", change)
 
 '''
+------
