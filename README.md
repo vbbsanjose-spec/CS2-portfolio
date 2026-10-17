@@ -5,7 +5,7 @@
 
 links for submission down below :
 
-LINKS :
+## ~~~ QUARTER 1 ~~~
 
 >[SanJose_VinceBryll_Distance.py](Q1/SanJose_Vince_Distance.py)
 
@@ -22,6 +22,8 @@ LINKS :
 >[cybersecurity.md](Q1/cybersecurity.md)
 
 >[secure_registration.py](Q1/secure_registration.py)
+
+## ~~~ QUARTER 2 ~~~
 
 >[Canteen_Purchase_Calculator.md](Q2/Canteen_Purchase_Calculator.md)
 
