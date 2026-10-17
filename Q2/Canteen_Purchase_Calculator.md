@@ -7,9 +7,9 @@ the amount paid.
 # ~~~~ Documentation Answers ~~~~
 
 ## 1. What does each function do?
-multiply_num(price, quantity): Multiplies the item price by the quantity purchased to return the total purchase cost.
+- multiply_num(price, quantity): Multiplies the item price by the quantity purchased to return the total purchase cost.
       
-subtract_num(payment, total_cost): Subtracts the total cost from the amount paid. If the payment is less than the total, it returns the shortage amount instead of a negative value.
+- subtract_num(payment, total_cost): Subtracts the total cost from the amount paid. If the payment is less than the total, it returns the shortage amount instead of a negative value.
 
 ## 2. What is the difference between the parameters price and quantity and the actual arguments passed to the function?
 Parameters are variables in the function. Actual arguments are the values passed to the function.
