@@ -1,3 +1,8 @@
+# Problem Description
+The school canteen needs a simple program to calculate the total cost of a purchase and the customers
+change. Create a program that asks the user to enter the price of an item, the quantity purchased and
+the amount paid.
+
 
 # Documentation Answers (Question 1-4)
 
