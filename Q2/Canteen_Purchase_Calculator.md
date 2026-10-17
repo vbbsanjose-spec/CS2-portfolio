@@ -1,29 +1,29 @@
 
 # Documentation Answers (Question 1-4)
 
-# 1. What does each function do?
- CalculateTotal(price, quantity): Multiplies the item price by the quantity purchased to return the total purchase cost.
+## 1. What does each function do?
+multiply_num(price, quantity): Multiplies the item price by the quantity purchased to return the total purchase cost.
       
-CalculateChange(payment, total): Subtracts the total cost from the amount paid. If the payment is less than the total, it returns the absolute shortage amount instead of a negative value.
+subtract_num(payment, total_cost): Subtracts the total cost from the amount paid. If the payment is less than the total, it returns the shortage amount instead of a negative value.
 
-# 2. What is the difference between the parameters price and quantity 
+## 2. What is the difference between the parameters price and quantity 
     and the actual arguments passed to the function?
     - Parameters (price, quantity) are the variables defined in the 
      function header that act as placeholders for the data the function 
      expects to receive. Arguments are the actual values or variables 
      passed into the function when it is called (e.g., user inputs).
 
-# 3. Where is the returned total stored, and how is it reused?
+## 3. Where is the returned total stored, and how is it reused?
     - The returned total is stored in a variable (e.g., `total_cost`). 
       It is reused when it is passed as an argument into the 
       `calculate_change()` function and when printing the final cost.
 
-# 4. Why is it useful to separate total calculation from change calculation?
+## 4. Why is it useful to separate total calculation from change calculation?
     - It promotes modularity, readability, and reusability. Each function has a single, clear responsibility, making the code easier to debug, test, and maintain independently.
 
-------
-'''python
+-----------------------------------------------------------------------------------------------------------
 
+```python
 def multiply_num(price, quantity):
   magkano_lahat = price * quantity
   return magkano_lahat
@@ -49,5 +49,5 @@ if payment >= total_cost:
 else:
   print("Your shortage amount is", change)
 
-'''
+```
 ------
