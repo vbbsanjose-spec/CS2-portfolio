@@ -22,6 +22,7 @@ It promotes modularity, readability, and reusability. Each function has a single
 
 -----------------------------------------------------------------------------------------------------------
 
+# ~~~~ FINAL CODE ~~~~
 ```python
 def multiply_num(price, quantity):
   magkano_lahat = price * quantity
