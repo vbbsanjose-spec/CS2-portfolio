@@ -36,3 +36,13 @@ print(f"Average: {average:.2f}")
 print(f"Performance: {performance}")
 print(f"Eligible for challenge: {eligible}")
 ```
+# ~~~~ DOCUMENTATION QUESTIONS ~~~~
+## 1. Which function returns a number, which returns a string, and which returns a Boolean?
+- 
+## 2. Explain how the average moves from calculate_average() into get_performance().
+- 
+## 3. What happens when a student has a high average but has completed fewer than three tasks?
+- They will still get a False output for the eligibility and would not be able to do the prcatice challenge
+  
+## 4. Why is return more appropriate than simply printing the result inside each function?
+- 
