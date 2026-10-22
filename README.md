@@ -28,3 +28,7 @@ links for submission down below :
 >[Canteen_Purchase_Calculator.md](Q2/Canteen_Purchase_Calculator.md)
 >===>
 >[Canteen_Purchase_Calculator.py](Q2/Canteen_Purchase_Calculator.py)
+
+>[Student_Performance_Evaluator.md](Q2/Student_Performance_Evaluator.md)
+>===>
+>[Student_Performance_Evaluator.py](Q2/Student_Performance_Evaluator.py)
