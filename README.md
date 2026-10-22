@@ -12,7 +12,8 @@ links for submission down below :
 >[hello.py](Q1/hello.py)
 
 >[Score_Checker.md](Q1/Score_Checker.md)
-
+>l
+>v
 >[Score_Checker.py](Q1/Score_Checker.py)
 
 >[input_validation.md](Q1/input_validation.md)
