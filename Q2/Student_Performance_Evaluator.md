@@ -38,11 +38,16 @@ print(f"Eligible for challenge: {eligible}")
 ```
 # ~~~~ DOCUMENTATION QUESTIONS ~~~~
 ## 1. Which function returns a number, which returns a string, and which returns a Boolean?
-- 
+- calculate_average() returns a number (float) representing the average score.
+- get_performance() returns a string, such as "Mastery", "Developing", or "Needs Review".
+- is_eligible() returns a Boolean value, either True or False.
+  
 ## 2. Explain how the average moves from calculate_average() into get_performance().
-- 
+- it uses the function calculate_average() in order to identify the performance of the student.
+
 ## 3. What happens when a student has a high average but has completed fewer than three tasks?
-- They will still get a False output for the eligibility and would not be able to do the prcatice challenge
+- The student is not eligible for the practice challenge because both conditions must be satisfied: the average must be at least 85, and the student must have completed at least three tasks. If either condition is false, is_eligible() returns False.
   
 ## 4. Why is return more appropriate than simply printing the result inside each function?
-- 
+- Using return is better because we can use the result later, while print() only displays it on the screen.
+
