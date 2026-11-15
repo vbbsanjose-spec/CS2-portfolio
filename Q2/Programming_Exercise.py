@@ -13,3 +13,13 @@ for num in range(1, 16):
     if num % 3 == 0:
         continue
     print(num)
+
+#Exercise 4
+def show_table(number):
+    for i in range(1, 11):
+        print(number, "x", i, "=", number * i)
+
+
+num = int(input("Enter a number: "))
+
+show_table(num)
