@@ -1,5 +1,8 @@
 # Exercise 1
 
+
+# Exercise 2
+
 destinations = ["Cebu", "Manila", "Davao", "Baguio", "Palawan"]
 
 print("All travel destinations:")
@@ -9,16 +12,15 @@ for a in destinations:
 print("\nIndex 1 to 3(slice 1:4): ")
 print(destinations[1:4])
 
-place = input(str("\nWhere do you want to go?")).strip()
+place = input(str("\nEnter your desired place: ")).strip().title()
 
 if place in destinations:
-  print("Your destination is on the list!")
+  print("\nYour destination is on the list!")
 
 else:
-  print("Your destination is not on the list.")
+  print("\nYour destination is not on the list.")
 
+destinations[2] = "Iloilo"
+print("The updated list is", destinations)
 
-
-  
-  
   
