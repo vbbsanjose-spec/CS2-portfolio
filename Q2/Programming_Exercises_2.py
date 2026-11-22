@@ -19,7 +19,7 @@ destinations = ["Cebu", "Manila", "Davao", "Baguio", "Palawan"]
 
 print("All travel destinations:")
 for a in destinations:
-  print(a)
+  print("•", a)
 
 print("\nIndex 1 to 3(slice 1:4): ")
 print(destinations[1:4])
