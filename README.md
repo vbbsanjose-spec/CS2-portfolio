@@ -34,3 +34,6 @@ links for submission down below :
 >[Student_Performance_Evaluator.py](Q2/Student_Performance_Evaluator.py)
 
 >[Programming_Exercises.py](Q2/Programming_Exercises.py)
+
+>[Programming_Exercises_2.py](Q2/Programming_Exercises_2.py)
+
