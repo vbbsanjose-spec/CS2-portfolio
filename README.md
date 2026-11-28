@@ -23,7 +23,7 @@ links for submission down below :
 >===>
 >[secure_registration.py](Q1/secure_registration.py)
 
-## ~~~ Qℚ𝕌𝔸ℝ𝕋𝔼ℝ 2 ~~~
+## ~~~ ℚ𝕌𝔸ℝ𝕋𝔼ℝ 2 ~~~
 
 >[Canteen_Purchase_Calculator.md](Q2/Canteen_Purchase_Calculator.md)
 >===>
