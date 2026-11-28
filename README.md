@@ -37,3 +37,5 @@ links for submission down below :
 
 >[Programming_Exercises_2.py](Q2/Programming_Exercises_2.py)
 
+>[Programming_Exercise_3.py](Q2/Programming_Exercise_3.py)
+
