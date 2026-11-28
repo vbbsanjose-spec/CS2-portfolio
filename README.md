@@ -7,7 +7,7 @@ links for submission down below :
 
 ## ~~~ ℚ𝕌𝔸ℝ𝕋𝔼ℝ 1 ~~~
 
->[SanJose_VinceBryll_Distance.py](Q1/SanJose_Vince_Distance.py)
+>̷1̷. [SanJose_VinceBryll_Distance.py](Q1/SanJose_Vince_Distance.py)
 
 >[hello.py](Q1/hello.py)
 
