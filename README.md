@@ -7,35 +7,35 @@ links for submission down below :
 
 ## ~~~ ℚ𝕌𝔸ℝ𝕋𝔼ℝ 1 ~~~
 
->̷1̷. [SanJose_VinceBryll_Distance.py](Q1/SanJose_Vince_Distance.py)
+>①. [San_Jose_VinceBryll_Distance.py](Q1/SanJose_Vince_Distance.py)
 
->[hello.py](Q1/hello.py)
+>②. [hello.py](Q1/hello.py)
 
->[Score_Checker.md](Q1/Score_Checker.md)
+>③. [Score_Checker.md](Q1/Score_Checker.md)
 >===>
 >[Score_Checker.py](Q1/Score_Checker.py)
 
->[input_validation.md](Q1/input_validation.md)
+>④. [input_validation.md](Q1/input_validation.md)
 >===>
 >[workshop_validator.py](Q1/workshop_validator.py)
 
->[cybersecurity.md](Q1/cybersecurity.md)
+>⑤. [cybersecurity.md](Q1/cybersecurity.md)
 >===>
 >[secure_registration.py](Q1/secure_registration.py)
 
 ## ~~~ ℚ𝕌𝔸ℝ𝕋𝔼ℝ 2 ~~~
 
->[Canteen_Purchase_Calculator.md](Q2/Canteen_Purchase_Calculator.md)
+>①. [Canteen_Purchase_Calculator.md](Q2/Canteen_Purchase_Calculator.md)
 >===>
 >[Canteen_Purchase_Calculator.py](Q2/Canteen_Purchase_Calculator.py)
 
->[Student_Performance_Evaluator.md](Q2/Student_Performance_Evaluator.md)
+>②. [Student_Performance_Evaluator.md](Q2/Student_Performance_Evaluator.md)
 >===>
 >[Student_Performance_Evaluator.py](Q2/Student_Performance_Evaluator.py)
 
->[Programming_Exercises.py](Q2/Programming_Exercises.py)
+>③. [Programming_Exercises.py](Q2/Programming_Exercises.py)
 
->[Programming_Exercises_2.py](Q2/Programming_Exercises_2.py)
+>④. [Programming_Exercises_2.py](Q2/Programming_Exercises_2.py)
 
->[Programming_Exercise_3.py](Q2/Programming_Exercise_3.py)
+>⑤. [Programming_Exercise_3.py](Q2/Programming_Exercise_3.py)
 
